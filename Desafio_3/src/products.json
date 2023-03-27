@@ -1,0 +1,117 @@
+[{
+    "title": "Manzana",
+    "description": "Manzana roja",
+    "price": 680,
+    "thumbnail": "Sin imagen",
+    "code": "aeef",
+    "stock": 23,
+    "id": 1
+  },
+  {
+    "title": "Naranja",
+    "description": "Naranja dulce",
+    "price": 550,
+    "thumbnail": "Sin imagen",
+    "code": "bdde",
+    "stock": 32,
+    "id": 2
+  },
+  {
+    "title": "Banana",
+    "description": "Banana amarilla",
+    "price": 970,
+    "thumbnail": "Sin imagen",
+    "code": "cecf",
+    "stock": 15,
+    "id": 3
+  },
+  {
+    "title": "Uva",
+    "description": "Uva verde",
+    "price": 1200,
+    "thumbnail": "Sin imagen",
+    "code": "dedd",
+    "stock": 12,
+    "id": 4
+  },
+  {
+    "title": "Piña",
+    "description": "Piña tropical",
+    "price": 1800,
+    "thumbnail": "Sin imagen",
+    "code": "eeca",
+    "stock": 6,
+    "id": 5
+  },
+  {
+    "title": "Pera",
+    "description": "Pera amarilla",
+    "price": 840,
+    "thumbnail": "Sin imagen",
+    "code": "ffdb",
+    "stock": 18,
+    "id": 6
+  },
+  {
+    "title": "Durazno",
+    "description": "Durazno amarillo",
+    "price": 920,
+    "thumbnail": "Sin imagen",
+    "code": "geca",
+    "stock": 20,
+    "id": 7
+  },
+  {
+    "title": "Mango",
+    "description": "Mango maduro",
+    "price": 1650,
+    "thumbnail": "Sin imagen",
+    "code": "heeb",
+    "stock": 8,
+    "id": 8
+  },
+  {
+    "title": "Frutilla",
+    "description": "Frutilla roja",
+    "price": 520,
+    "thumbnail": "Sin imagen",
+    "code": "iefa",
+    "stock": 30,
+    "id": 9
+  },
+  {
+    "title": "Kiwi",
+    "description": "Kiwi verde",
+    "price": 920,
+    "thumbnail": "Sin imagen",
+    "code": "jedc",
+    "stock": 15,
+    "id": 10
+  },
+  {
+    "title": "Sandía",
+    "description": "Sandía grande",
+    "price": 2700,
+    "thumbnail": "Sin imagen",
+    "code": "keeb",
+    "stock": 4,
+    "id": 11
+  },
+  {
+    "title": "Melón",
+    "description": "Melón amarillo",
+    "price": 1600,
+    "thumbnail": "Sin imagen",
+    "code": "leec",
+    "stock": 9,
+    "id": 12
+  },
+  {
+    "title": "Cereza",
+    "description": "Cereza roja",
+    "price": 1100,
+    "thumbnail": "Sin imagen",
+    "code": "mefa",
+    "stock": 11,
+    "id": 13
+  }]

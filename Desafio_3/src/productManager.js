@@ -1,20 +1,21 @@
-
-
+//Desafío Entregable 2 - RODRIGO ZALAZAR CAVALLERIS
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 //Logica
 
 //Class Constructor de Product Manager, con instancia inicial de un arreglo vacío y una variable idAuto iniciada en 1, la cual al recibir nuevos productos, irá incrementándose en 1 cada vez.
-const fs = require('fs').promises;
+import fs from "fs/promises";
 
 class ProductManager{
 
     constructor(){
+
         this.products = [];
         this.idAuto = 1;
         this.path = './products.json';
 
     }
-    //Método para obtener el listado JSON de los productos. 
+    //Metodo para obtener el listado JSON de los productos. 
     async getProducts(){
         //Se utiliza la estructura try - catch para que intente leer el archivo primero y si no puede, atrape el error (catch) y lo resuelva creando uno con fs.writeFile.
         try {
@@ -31,7 +32,7 @@ class ProductManager{
     
     }
 
-    //GetProductsById busca productos por Id. Cada uno que se agrega a ProductManager debe tener un id diferente. El ID se genera cada vez que se agrega un producto, incrementando en 1 el id generado inmediatamente antes de la acción
+    // GetProductsById busca productos por Id. Cada uno que se agrega a ProductManager debe tener un id diferente. El ID se genera cada vez que se agrega un producto, incrementando en 1 el id generado inmediatamente antes de la acción
     async getProductById(id){
         try {
             const productsFile = await fs.readFile(this.path, "utf-8");
@@ -88,7 +89,7 @@ class ProductManager{
         }
     }
 
-    //Método que cambia el valor de un producto por otro, reemplazándolo. La búsqueda del producto a reemplazar se realiza por id. Recibe dos parámetros: id de producto buscado y producto que se reemplazará.
+    //Metodo que cambia el valor de un producto por otro, reemplazándolo. La búsqueda del producto a reemplazar se realiza por id. Recibe dos parámetros: id de producto buscado y producto que se reemplazará.
     async updateProducts(id, product ){
 
         try {
@@ -152,45 +153,20 @@ const productoPrueba1 = {
     stock: 25
   };
 
-const productoPrueba2 = {
-    title: "Pera",
-    description: "Pera Juanita",
-    price: 650,
-    thumbnail: "Sin imagen",
-    code: "abc321",
-    stock: 23
-  };
-
-const productoPrueba3 = {
-    title: "Manzana",
-    description: "Manzana roja",
-    price: 680,
-    thumbnail: "Sin imagen",
-    code: "aeef",
-    stock: 23
-  };
-
-const productoModificado = {
-    title: "cambiado",
-    description: "nueva descripcion",
-    price: 680,
-    thumbnail: "Sin imagen",
-    code: "uuryf",
-    stock: 23
-};
-
 //Instanciado de ProductManager guardado en variable
-const productManager = new ProductManager();
+// const productManager = new ProductManager();
 
-//Para comprobar el funcionamiento, llamar a productManager por cada uno de los métodos siguiendo los pasos del ejercicio dentro de la función TESTING
+// //Para comprobar el funcionamiento, llamar a productManager por cada uno de los métodos siguiendo los pasos del ejercicio dentro de la función TESTING
 
-const testing = async ()=>{
+// const testing = async ()=>{
     
-//EJECUTAR PRUEBAS AQUÍ!!
+// //EJECUTAR PRUEBAS AQUÍ!!
 
-}
+// }
 
-testing()
+// testing()
+
+export default ProductManager;
 
 
 
