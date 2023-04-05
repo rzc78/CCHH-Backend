@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Mouse",
+    "description": "Mouse optico Genius",
+    "code": "aeef",
+    "price": 680,
+    "status": true,
+    "stock": 23,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 1
+  },
+  {
+    "title": "Teclado inalámbrico",
+    "description": "Teclado inalámbrico marca Logitech",
+    "code": "adfe",
+    "price": 1200,
+    "status": true,
+    "stock": 15,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 2
+  },
+  {
+    "title": "Monitor",
+    "description": "Monitor LED 24 pulgadas marca Samsung",
+    "code": "baee",
+    "price": 4500,
+    "status": true,
+    "stock": 8,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 3
+  },
+  {
+    "title": "Cámara de seguridad",
+    "description": "Cámara de seguridad Wi-Fi marca Ring",
+    "code": "efde",
+    "price": 2500,
+    "status": true,
+    "stock": 10,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 4
+  },
+  {
+    "title": "Auriculares inalámbricos",
+    "description": "Auriculares inalámbricos marca Sony",
+    "code": "cfee",
+    "price": 1800,
+    "status": true,
+    "stock": 20,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 5
+  },
+  {
+    "title": "Altavoz Bluetooth",
+    "description": "Altavoz Bluetooth resistente al agua marca JBL",
+    "code": "dbee",
+    "price": 1500,
+    "status": true,
+    "stock": 12,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 6
+  },
+  {
+    "title": "Impresora",
+    "description": "Impresora multifuncional marca HP",
+    "code": "bbee",
+    "price": 3200,
+    "status": true,
+    "stock": 5,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 7
+  },
+  {
+    "title": "Disco duro externo",
+    "description": "Disco duro externo de 1TB marca Seagate",
+    "code": "adde",
+    "price": 1500,
+    "status": true,
+    "stock": 18,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 8
+  },
+  {
+    "title": "Tablet",
+    "description": "Tablet Android de 10 pulgadas marca Samsung",
+    "code": "cbfe",
+    "price": 3500,
+    "status": true,
+    "stock": 7,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 9
+  },
+  {
+    "title": "Smart TV",
+    "description": "Smart TV LED de 50 pulgadas marca LG",
+    "code": "cbee",
+    "price": 8000,
+    "status": true,
+    "stock": 3,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 10
+  },
+  {
+    "title": "Proyector",
+    "description": "Proyector Full HD marca Epson",
+    "code": "edee",
+    "price": 6000,
+    "status": true,
+    "stock": 6,
+    "category": "Tecnologia",
+    "thumbnail": "Sin imagen",
+    "id": 11
+  }
+]
