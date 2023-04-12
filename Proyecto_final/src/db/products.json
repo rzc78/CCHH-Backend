@@ -1,16 +1,5 @@
 [
   {
-    "title": "Mouse",
-    "description": "Mouse optico Genius",
-    "code": "aeef",
-    "price": 680,
-    "status": true,
-    "stock": 23,
-    "category": "Tecnologia",
-    "thumbnail": "Sin imagen",
-    "id": 1
-  },
-  {
     "title": "Teclado inalámbrico",
     "description": "Teclado inalámbrico marca Logitech",
     "code": "adfe",
