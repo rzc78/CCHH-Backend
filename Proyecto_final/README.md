@@ -42,6 +42,20 @@ Instalación:
 
     npm install socket.io
 
+- Mongoose (versión 7.0.4): para la incorporación de web socket
+
+Instalación:
+
+    npm install socket.io
+
+
+- Dotenv (versión 16.0.3): para el manejo de variables de entorno
+
+Instalación:
+
+    npm install dotenv
+
+
 ## Dependencias de desarrollo
 
 - Nodemon (versión 2.0.22): reinicia automáticamente la aplicación cuando se detectan cambios en el código.

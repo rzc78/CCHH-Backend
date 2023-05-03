@@ -1,22 +1,23 @@
+//dotenv
+import dotenv from 'dotenv';
+dotenv.config();
+
 //Importación de express, routes, engine y path;
 import express from "express";
+import mongoose from 'mongoose';
 import ProductRouter from './routes/ProductRouter.js';
 import CartsRouter from './routes/CartRouter.js';
 import ViewsRouter from "./routes/views.router.js";
-import ProductManager from "./productManager.js";
 import { engine } from 'express-handlebars';
 import { Server } from 'socket.io';
 
 //Import de path para manejo de las rutas relativas en node.
 import { resolve } from 'path';
+import { error } from 'console';
 
 //Inicialización de variables: app para guardar el método de express y port para el puerto 8080
 const app = express();
 const port = 8080;
-
-//Llamado a la función getProducts de ProductManager. Se instancia
-const productManager = new ProductManager();
-const list = await productManager.getProducts();
 
 //MIDDELWARES
 app.use(express.json());
@@ -40,6 +41,17 @@ app.use('/api/carts', CartsRouter);
 const httpServer = app.listen(port, () => {
   console.log(`Listening port ${port}. On line!`);
 });
+
+// Conexion Mongoose
+mongoose.connect('mongodb+srv://admin:admin123@ecommerce.v5ats9u.mongodb.net/ecommerce', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+}).then(() => {
+  console.log('Connected to MongoDB');
+}).catch((err) => {
+  console.error(err);
+});
+
 
 //Instanciado socket
 const socketServer = new Server(httpServer);
